@@ -7,34 +7,28 @@ startTimestamp = new Date();
 
 const presence = {
      0: {
-          image: "discord_logo",
-          text: "RHG's Discord",
-          text2: "discord.gg/WUTAaSW"
+          image: "fhg_discord",
+          text: "FreakingHulk Gaming Fan Discord",
+          text2: "https://discordapp.com/dcTXqrp"
      },
 
      1: {
-          image: "lua",
-          text: "I know LUA Very well!",
-          text2: "Please ask questions!"
+          image: "hulks_group",
+          text: "Hulk's Group",
+          text2: "Join Hulk's Group, a ROBLOX Group that makes excellent clothing!!!"
      },
 
      2: {
-          image: "mortalminigameslarge",
+          image: "cvr",
           text: "Creator of",
-          text2: "Mortal Minigames, Go see it!"
+          text2: "Cops VS Robbers, go see it!!!"
      },
 	 
 	 3: {
-          image: "robloxstudio_logo",
-          text: "I play ROBLOX!",
-          text2: "Sorry haters!"
-     },
-	 
-	 4: {
-          image: "mortalminigameslarge",
-          text: "Creator of",
-          text2: "Mortal Minigames, Go see it!"
-     },
+          image: "roblox_studio",
+          text: "I develop on ROBLOX!",
+          text2: "Maybe ask me some questions?"
+     }	 
 };
 
 let presenceval = 0;
@@ -46,8 +40,8 @@ function setActivity() {
                state: presence[presenceval].text2,
                largeImageKey: presence[presenceval].image,
                startTimestamp,
-               smallImageKey: 'rhg',
-               smallImageText: 'RHG#0822',
+               smallImageKey: 'fhg',
+               smallImageText: 'FreakingHulk Gaming#6545',
                instance: false
           });
 		  presenceval++; 
@@ -62,7 +56,7 @@ rpc.on('ready', () => {
      rpc.setActivity({
           details: "Loading...",
           startTimestamp: new Date(),
-          largeImageKey: `rhg_clean`,
+          largeImageKey: `fhg`,
           instance: false
      }); 
      setActivity();
