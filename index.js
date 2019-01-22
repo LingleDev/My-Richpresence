@@ -7,8 +7,8 @@ startTimestamp = new Date();
 
 const presence = {
      0: {
-          image: "fhg_discord",
-          text: "FreakingHulk Gaming Fan Discord",
+          image: "fhg",
+          text: "FHG's Discord",
           text2: "https://discordapp.com/dcTXqrp"
      },
 
@@ -19,16 +19,29 @@ const presence = {
      },
 
      2: {
-          image: "cvr",
+          image: "fhg_training_thumbnail",
           text: "My game",
-          text2: "I made Cops vs Robbers, go check it out!!!"
+          text2: "I made FHG's Training Holo, go check it out!"
      },
-	 
-	 3: {
-          image: "roblox_studio",
-          text: "I make games on ROBLOX!",
-          text2: "Maybe ask me some questions?"
-     }	 
+     
+     3: {
+     	image: "roblox_studio",
+        text: "I make games on ROBLOX!",
+        text2: "Maybe ask me some questions?"
+     },
+   
+     4: {
+	image: "yt",
+	text: "I have a youtube channel!",
+	text2: "Go check it out! (link in profile)"
+     },
+     
+     5: {
+     	image: "sleeping",
+	text: "I'm sleeping right now, so please don't ping me!",
+	text2: "No, seriously. Don't. TALKING TO YOU, BANE!"
+     }
+	
 };
 
 let presenceval = 0;
