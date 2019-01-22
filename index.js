@@ -20,13 +20,13 @@ const presence = {
 
      2: {
           image: "cvr",
-          text: "Creator of",
-          text2: "Cops VS Robbers, go see it!!!"
+          text: "My game",
+          text2: "I made Cops vs Robbers, go check it out!!!"
      },
 	 
 	 3: {
           image: "roblox_studio",
-          text: "I develop on ROBLOX!",
+          text: "I make games on ROBLOX!",
           text2: "Maybe ask me some questions?"
      }	 
 };
@@ -41,7 +41,7 @@ function setActivity() {
                largeImageKey: presence[presenceval].image,
                startTimestamp,
                smallImageKey: 'fhg',
-               smallImageText: 'FreakingHulk Gaming#6545',
+               smallImageText: 'FHGDev#0666',
                instance: false
           });
 		  presenceval++; 
